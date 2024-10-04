@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px, rgba(0, 0, 0, 0.25) 0px 2px 4px;
+}
+
+.nav-link {
+    color: #4A90E2;
+    transition: color 0.3s ease; 
+    font-size: 1rem;
+}
+
+.nav-link:hover {
+    color: #FF6F61 !important;
+}
+
+.navbar {
+    padding: 0.5rem 1rem;
+}
+
+.navbar-brand {
+    display: flex; 
+    align-items: center; 
+    margin: 0;
+}
+
+.logo {
+    height: 35px; 
+    width: auto; 
+}
+
+a {
+    text-decoration: none; 
+}
+
+.navbar-dark .navbar-toggler {
+    background-color: #000000; 
+    border: none; 
+}
+
+.navbar-dark .navbar-toggler:hover {
+    background-color: #FF6F61; 
+}
+/* NAVBAR */
+
+/* Home section */
+#home {
+    background-color: #f8f9fa;
+}
+
+#home h1 {
+    font-size: 36px;
+    color: #4A90E2;
+}
+
+#home p {
+    color: #555555;
+}
+
+.btn-primary {
+    background-color: #FF6F61;
+    border: none; 
+}
+
+.btn-primary:hover {
+    background-color: #FF4C3B;
+}
+
+.card {
+    border: none; 
+    border-radius: 10px; 
+}
+
+.card-img-top {
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+}
+
+/* Home section */
+
+
+@media (max-width: 576px) { 
+    body {
+        font-size: 0.875rem; 
+    }
+
+    h1 {
+        font-size: 28px; 
+    }
+
+    h2 {
+        font-size: 24px; 
+    }
+
+    h3, h4 {
+        font-size: 20px; 
+    }
+
+    p {
+        font-size: 0.875rem; 
+    }
+
+    .btn {
+        font-size: 0.875rem; 
+    }
+
+    .nav-link {
+        font-size: 0.875rem;
+    }
+}
